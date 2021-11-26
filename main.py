@@ -6,3 +6,5 @@ def root():
 @route('/')
 def css():
   return static_file('style.css', './')
+
+run(host='0.0.0.0', port=8080)
